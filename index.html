@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CuraConnect</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Dancing+Script:wght@700&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Cura-Connect</h1>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#doctors">Department</a></li>
+                <li><a href="#blog">Login</a></li>
+                
+
+            </ul>
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </nav>
+
+        <div class="main">
+            <img src="main.png" alt="">
+            <div class="mainText">
+                <h1>Centralised Hospital Management system</h1>
+                <p>To cure sometimes,to relieve often,to comfort always.</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+        <div id="service">
+            <div class="head">
+                <h1>Our Services</h1>
+                <div class="serviceCard">
+                    <div class="card">
+                        <img src="list.png" alt=""  style="text-decoration: none; height: 100px; width: 100px;">
+                        <p>Appointment</p>
+                    </div>
+                     
+                    <div class="card">
+                        <img src="noti.png" alt="" height="100px" width="100px">
+                        <p>Reminders</p>
+                    </div>
+                    <div class="card">
+                        <img src="ambu.png" alt="" height="100px" width="100px">
+                        <p>Emergency</p>
+                    </div>
+                    <div class="card">
+                        <img src="hsptlbed.png" alt="" height="100px" width="100px">
+                        <p>Bed Avail</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="doctors">
+            <div class="head">
+                <h1>Departments</h1>
+            </div>
+            
+            <div class="doctor">
+                <div class="team">
+                     
+                        <img src="cardio.jpg" alt="" style="border: 5px solid grey; ">
+                        <img src="dentist.webp" alt="">
+                        <img src="ent.jpg" alt="">
+                         
+                     
+                </div>
+                <div class="team">
+                     
+                        <img src="Gyno.webp" alt=""> 
+                        <img src="kidney.webp" alt="">
+                        <img src="ortho.jpg" alt="">
+                         
+                     
+                </div>
+                <div class="team">
+                     
+                        <img src="master.jpeg" alt="">
+                        <img src="nerve.jpg" alt="">
+                        <img src="kidney.webp" alt="">
+                </div>
+                <div class="team">
+                     
+                    <img src="master.jpeg" alt=""> 
+                    <img src="ortho.jpg" alt="">
+                    <img src="nerve.jpg" alt="">
+                     
+                 
+            </div>
+            </div>
+        </div>
+
+        <div id="blog">
+            <div class="head">
+                <h1>Login Portal</h1>
+            </div>
+            <div class="blogs">
+                <div class="blogCard">
+                    <h3 style="font-weight: bold; font-size: 30px;">Signin</h3><br>
+                    <div>
+                   Username  <input style="width: 50%; height: 20px; margin-left: 10px;" type="text" placeholder="   Enter username">
+                 <br><br>   Password   <input style="width: 50%; height: 20px; margin-left: 10px;" type="text" placeholder="   Enter password">
+                </div><br>
+                    <a href="#" style="border: solid 2px; border-radius: 6px;" class="logbut">Login</a>
+                    <br><br><br>
+                   <div class="but">
+                    <select type="select" ><option>Hospital login</option><option>Admin Login</option><option>User Login</option></select>
+                  
+                   
+
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="appointment">
+            <div class="head">
+                <h1>Book An Appointment</h1>
+            </div>
+            <div class="form">
+                <form action="index.html" method="POST">
+
+                    <input type="hidden" name="access_key" value="d5a685eb-5c0d-4876-9857-79b722864662">
+                
+                    <input type="text" placeholder="Name" name="name" required>
+                    <input type="number" placeholder="Mobile Number" name="MobileNo" required>
+                    <input type="text" placeholder="Department" name="Department" required>
+                    <input type="date" placeholder="Date" name="Date" required>
+                    <input type="time" placeholder="Time" name="time" required>
+                    
+                   
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                    <button style="padding-bottom: 10px; font-size:large;" type="submit">Book an Appointment</button>
+                
+                </form>
+            </div>
+        </div>
+
+        <div class="footer">
+            
+            <div class="text">
+                <h2>Care</h2>
+                <p>Facility</p>
+                <p>Reviews</p>
+                <p>Support</p>
+                <p>Rating</p>
+
+            </div>
+            <div class="text">
+                <h2>Address</h2>
+                <p>Kamaraj nagar</p>
+                <p>Sundrapuram</p>
+                <p>Coimbatore</p>
+                <p>641032</p>
+
+            </div>
+            <div class="text">
+                <h2>Connect Us</h2>
+                <p>www.curaconnect.com</p>
+                
+
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
